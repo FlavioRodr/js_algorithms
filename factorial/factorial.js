@@ -1,9 +1,10 @@
+import { s } from './stack/stack.js';
 /**
  * Returns the factorial for the number
  * @param {number} num 
  * @returns {number}
  */
-function factorial(num) {
+export default function factorial(num) {
     if (num == 1)
         return 1;
     
